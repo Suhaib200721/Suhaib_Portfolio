@@ -211,6 +211,22 @@ nav a:hover::after, nav a:focus-visible::after{width:100%;}
   text-align:center;
   padding:8rem 1.5rem 4rem;
 }
+.hero-photo{
+  position:absolute;
+  right:1%;
+  top:50%;
+  transform:translateY(-40%);
+  z-index:10;
+}
+
+.hero-photo img{
+  width:300px;
+  height:300px;
+  object-fit:cover;
+  border-radius:50%;
+  border:3px solid #4cc9f0;
+  box-shadow:0 0 35px rgba(76,201,240,0.4);
+}
 .hero .eyebrow{justify-content:center;}
 .hero .eyebrow::before{display:none;}
 .hero h1{
@@ -507,6 +523,9 @@ footer .f-links a:hover{color:var(--cyan);}
     <div><strong>3</strong><span>Featured Projects</span></div>
     <div><strong>5</strong><span>Certifications</span></div>
     <div><strong>7.5</strong><span>CGPA</span></div>
+    <div class="hero-photo">
+  <img src="profile.jpeg" alt="Muhammad Suhaib Hussain">
+</div>
   </div>
   <div class="scroll-cue"><span>Scroll</span><span class="line"></span></div>
 </section>
